@@ -1,0 +1,5 @@
+[controller]
+n1.test.spotsnel.net
+
+[compute]
+n[2:6].test.spotsnel.net

@@ -1,0 +1,10 @@
+---
+- name: Ensure ionic-cloud repository is up to date
+  hosts: all
+  gather_facts: no
+  tasks:
+    - git:
+        repo: "https://github.com/gbraad/ionic-cloud"
+        dest: "/home/centos/ionic-cloud"
+        update: "yes"
+        force: "yes"
